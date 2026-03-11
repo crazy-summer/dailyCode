@@ -1,4 +1,4 @@
-package com.liuao.thread;
+package thread;
 
 public class ThreadJoinPractice {
     public static void main(String[] args) throws InterruptedException {

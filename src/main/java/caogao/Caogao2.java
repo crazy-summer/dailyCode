@@ -1,10 +1,7 @@
-package com.liuao.caogao;
+package caogao;
 
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
 public class Caogao2 {
     public static void main(String[] args) {

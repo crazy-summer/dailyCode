@@ -1,4 +1,4 @@
-package com.liuao.jianzhioffer;
+package jianzhioffer;
 import java.util.*;
 
 

@@ -1,4 +1,4 @@
-package com.liuao.thread;
+package thread;
 
 public class ThreadTest {
     public static void main(String[] args) {

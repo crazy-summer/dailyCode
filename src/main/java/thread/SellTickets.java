@@ -1,4 +1,4 @@
-package com.liuao.thread;
+package thread;
 
 public class SellTickets {
     public static void main(String[] args) {

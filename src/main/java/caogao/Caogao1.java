@@ -1,4 +1,4 @@
-package com.liuao.caogao;
+package caogao;
 
 public class Caogao1 {
     public static void main(String[] args) {

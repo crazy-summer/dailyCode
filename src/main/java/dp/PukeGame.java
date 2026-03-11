@@ -1,4 +1,4 @@
-package com.liuao.dp;
+package dp;
 
 public class PukeGame {
     // question:有几张扑克牌从左至右排列，小明和小绿先后从其中从左边拿一张或者是从右边拿一张，最后谁的点数和大谁赢，两人都是聪明人

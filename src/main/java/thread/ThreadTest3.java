@@ -1,4 +1,4 @@
-package com.liuao.thread;
+package thread;
 
 
 import java.util.concurrent.*;

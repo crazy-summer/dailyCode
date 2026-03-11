@@ -1,4 +1,4 @@
-package com.liuao.dp;
+package dp;
 
 public class Lianbiao {
     // question:合并两个有序链表为一个有序链表
