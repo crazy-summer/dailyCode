@@ -15,11 +15,14 @@ import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import static java.lang.Math.max;
+
 @SpringBootTest
 class MonofluxApplicationTests {
 
     @Test
     void contextLoads() {
+        int a = max(Integer.MAX_VALUE, 4);
     }
 
     @Test
