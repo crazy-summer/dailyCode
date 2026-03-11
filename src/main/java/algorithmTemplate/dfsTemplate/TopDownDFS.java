@@ -1,5 +1,6 @@
-package algorithmTemplate.TreeNode;
-
+package algorithmTemplate.dfsTemplate;
+//适用场景：需要传递参数给子节点（如：路径和、最大深度、当前层级）。
+//特点：在递归调用前更新状态，把状态“传下去”。
 public class TopDownDFS {
     int globalResult = 0; // 如果需要全局结果
 

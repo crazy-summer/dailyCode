@@ -1,4 +1,4 @@
-package algorithmTemplate.TreeNode;
+package algorithmTemplate.bfsTemplate;
 
 public class TreeNode {
     public TreeNode left;

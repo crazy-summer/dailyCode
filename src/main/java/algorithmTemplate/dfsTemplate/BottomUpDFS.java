@@ -1,5 +1,7 @@
-package algorithmTemplate.TreeNode;
+package algorithmTemplate.dfsTemplate;
 
+//适用场景：需要根据子节点的返回值来计算当前节点的值（如：树的高度、平衡二叉树判断、最大直径）。
+//特点：先递归到底，拿到子节点的返回值，再处理当前节点。
 public class BottomUpDFS {
     public int solve(TreeNode root) {
         return dfs(root);

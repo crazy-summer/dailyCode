@@ -1,4 +1,4 @@
-package algorithmTemplate.TreeNode;
+package algorithmTemplate.dfsTemplate;
 
 public class TreeDFS {
     // 主函数
