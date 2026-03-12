@@ -22,7 +22,7 @@ public class BackTrackingTemplate {
         for (int i = startIndex; i < arr.length; i++) {
             path.add(arr[i]);
             backtracking(arr, i + 1, n, path, result);
-            path.removeLast();
+            path.remove(path.size() - 1);
         }
     }
 }
