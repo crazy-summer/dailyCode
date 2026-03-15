@@ -16,11 +16,11 @@ public class CompetitionScore {
         int[][] scores = new int[m][n];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
+                scores[i][j] = sc.nextInt();
                 if (!(scores[i][j] <= 10 && scores[i][j] >= 1)) {
                     System.out.println(-1);
                     return;
                 }
-                scores[i][j] = sc.nextInt();
             }
         }
         // key 是选手编号也就是列号，value是选手的所有得分也就是一列
@@ -34,6 +34,7 @@ public class CompetitionScore {
             map.put(i, score);
         }
         StringJoiner sj = new StringJoiner(",");
+        // 按照选手的总分降序排序，如果总分相等，得高分多的排前面
         map.entrySet().stream().sorted(
                 (o1, o2) -> {
                     Integer[] score1 = o1.getValue();
